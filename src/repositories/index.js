@@ -7,7 +7,6 @@ const UserRepository = require('./user.repository');
 const TicketRepository = require('./ticket.repository');
 const CartRepository = require('./cart.repository');
 
-// Instanciamos los Repositories inyectando el DAO correspondiente
 const userService = new UserRepository(UserDao);
 const ticketService = new TicketRepository(TicketDao);
 
